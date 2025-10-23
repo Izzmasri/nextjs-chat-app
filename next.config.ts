@@ -1,6 +1,9 @@
-/** @type {import('next').NextConfig} */
+import type { NextConfig } from "next";
+
 const nextConfig = {
-  serverExternalPackages: ["ably"],
+  experimental: {
+    serverExternalPackages: ["ably"],
+  },
 };
 
 export default nextConfig;
