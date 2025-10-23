@@ -1,8 +1,6 @@
+/** @type {import('next').NextConfig} */
 const nextConfig = {
-  experimental: {
-    serverExternalPackages: ["ably"],
-    transpilePackages: ["ably"],
-  },
+  serverExternalPackages: ["ably"],
 };
 
 export default nextConfig;
